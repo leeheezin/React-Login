@@ -10,13 +10,14 @@
 <br>
 2.메인페이지는 저장한 유저이메일을 보여주고, logout버튼을 클릭하면 유저정보가 초기화되고, 로그인페이지로 리디렉션됩니다.
 <br>
-또 loginpage 를 클릭하면 로그인 페이지로 돌아가서 이전에 입력한 로그인 정보를 보여줍니다.
+3.또 loginpage 를 클릭하면 로그인 페이지로 돌아가서 이전에 입력한 로그인 정보를 보여줍니다.
 
 
+<br>
+<br>
 ### 설치/ 실행
 ```
 git clone https://github.com/leeheezin/React-Login.git
 npm install
 npm start
-
 ```
