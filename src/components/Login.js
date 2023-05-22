@@ -44,9 +44,15 @@ function Login() {
       setPw(userInfo.pw);
     }
   }, []);
+  const style = {
+    display: "flex",
+    flexDirection: "column",
+    alignItems: "center",
+    justifyContent: "center",
+  };
 
   return (
-    <>
+    <div style={style}>
       <h1>Login</h1>
       <form action="">
         <input type="text" value={id} onChange={(e) => setId(e.target.value)} placeholder="email" /><br />
@@ -55,7 +61,7 @@ function Login() {
         {pwError && <span>{pwError}</span>}<br />
         <button onClick={login}>Login</button>
       </form>
-    </>
+    </div>
   );
 }
 
