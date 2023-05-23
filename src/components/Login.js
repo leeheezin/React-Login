@@ -29,6 +29,7 @@ function Login() {
 
   const navigate = useNavigate();
   const login = (e) => {
+    e.preventDefault();
     if (!userId(id) || !userPw(pw)) {
       return;
     }
